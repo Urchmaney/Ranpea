@@ -1,0 +1,43 @@
+#nav-bar-links a{
+	display:inline-block;
+	padding-right: 20px;
+}
+
+#nav-bar-links a:hover{
+	color: grey;
+}
+
+#nav-bar-links button{
+	margin-right: 20px;
+	padding: 5px;
+
+}
+
+#nav-bar-links button:nth-of-type(1){
+	border-radius: 5px;
+	border:none;
+	color: white;
+	background-color: #00BF6F !important;
+}
+
+#nav-bar-links button:nth-of-type(2){
+	border-radius: 5px;
+	border:1px solid black;
+
+
+}
+
+
+#img-container{
+	width:30%;
+}
+
+#nav-bar-links{
+	width:70%;
+	padding-top:20px;
+
+}
+
+#nav-bar{
+	display: flex;
+}
