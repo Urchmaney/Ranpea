@@ -27,6 +27,55 @@
 
 }
 
+#section-1{
+	height: 500px;
+	background-color: #00bf6f;
+	clip-path: polygon(0% -10%,100% 0%,100% 70%,0% 100%);
+	position: relative;
+}
+
+#bike-man{
+	width:42%;
+	position: absolute;
+	background-image: url(../img/featured-image-kwik.png);
+	height:500px;
+	background-position: right center;
+	background-size: cover;
+	
+
+}
+
+#section1-mini{
+	
+	
+	position: absolute;
+	left:600px;
+	width: 300px;
+	top:100px;
+	color:white;
+	
+}
+
+#section1-mini img:nth-of-type(2){
+	
+	margin-left:15px;
+}
+
+#section1-mini p:nth-of-type(1){
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 1.2em;
+	font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	margin-bottom: 1px;
+}
+
+
+#section1-mini p:nth-of-type(2){
+	margin-top:10px;
+	font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+	font-size: 22px;
+	letter-spacing: 2px;
+}
 
 #img-container{
 	width:30%;
@@ -35,6 +84,7 @@
 #nav-bar-links{
 	width:70%;
 	padding-top:20px;
+	text-align: right;
 
 }
 
